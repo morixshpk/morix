@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<RootNamespace>Morix</RootNamespace>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<AssemblyName>Morix</AssemblyName>
+		<Authors>Morix shpk</Authors>
+		<Company>Morix shpk</Company>
+		<Description>c# library for logging to file</Description>
+		<PackageProjectUrl>https://github.com/morixshpk/morix</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/morixshpk/morix</RepositoryUrl>
+		<PackageLicenseFile>License.txt</PackageLicenseFile>
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\License.txt">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
