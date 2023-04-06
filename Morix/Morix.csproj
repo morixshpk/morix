@@ -6,13 +6,13 @@
 		<AssemblyName>Morix</AssemblyName>
 		<Authors>Morix shpk</Authors>
 		<Company>Morix shpk</Company>
-		<Description>c# library for logging to file</Description>
+		<Description>Helper library for C# devs</Description>
 		<PackageProjectUrl>https://github.com/morixshpk/morix</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/morixshpk/morix</RepositoryUrl>
 		<PackageLicenseFile>License.txt</PackageLicenseFile>
-		<Version>1.0.2</Version>
-		<AssemblyVersion>1.0.2</AssemblyVersion>
-		<FileVersion>1.0.2</FileVersion>
+		<Version>1.0.3</Version>
+		<AssemblyVersion>1.0.3</AssemblyVersion>
+		<FileVersion>1.0.3</FileVersion>
 		<Title>Morix</Title>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
