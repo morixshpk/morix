@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Morix Security\Morix Security.csproj" />
     <ProjectReference Include="..\Morix\Morix.csproj" />
   </ItemGroup>
 
