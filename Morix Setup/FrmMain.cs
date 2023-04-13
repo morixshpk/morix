@@ -273,9 +273,9 @@ namespace Morix
                     client.DownloadFile("https://updater.morix.al/Morix.Updater.exe", file);
                 }
             }
-            catch
+            catch(Exception ex)
             {
-
+              
             }
 
             if (File.Exists(file))
