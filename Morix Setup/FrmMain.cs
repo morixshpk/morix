@@ -21,7 +21,7 @@ namespace Morix
         string _productDir;
         string _productExePath;
         int _selectedProduct = 0;
-        readonly string[] _products = new string[3] { "None", "Accounts", "Morix POS" };
+        readonly string[] _products = new string[4] { "None", "Accounts", "Morix POS", "Morix Exchange" };
 
         string _company;
         string _productName;
@@ -314,6 +314,13 @@ namespace Morix
                 _company = "Morix";
                 _productName = "Morix POS";
                 _productExe = "MorixPOS.exe";
+                DetectProduct();
+            }
+            else if (_selectedProduct == 3)
+            {
+                _company = "Morix";
+                _productName = "Morix Exchange";
+                _productExe = "MorixExchange.exe";
                 DetectProduct();
             }
         }
